@@ -52,25 +52,35 @@
             class="nav__logo"
           />
           <ul class="nav__links">
-            <li><a href="" class="nav__link">Recetas</a></li>
+            <li><a href="#recipes" class="nav__link">Recetas</a></li>
             <li><a href="" class="nav__link">Reservar una mesa</a></li>
             <li><a href="" class="nav__link">Menú</a></li>
             <li><a href="" class="nav__link">Contactos</a></li>
           </ul>
         </nav>
         <!-- Texto -->
-        <h1 class="header__title"><span class="header__span-accent">Café de especialidad</span>en Triple Peaks</h1>
+        <h1 class="header__title">
+          <span class="header__span-accent">Café de especialidad</span>en Triple
+          Peaks
+        </h1>
         <p class="header__description">
-          ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café para darte energía y una vibra acogedora que motivarán tu creatividad.
+          ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
+          para darte energía y una vibra acogedora que motivarán tu creatividad.
         </p>
         <!-- Imagen cafeteria -->
-        <img src="images/inside_coffee_shop.png" alt="aqui hay una imagen" class="header__image">
+        <img
+          src="images/inside_coffee_shop.png"
+          alt="aqui hay una imagen"
+          class="header__image"
+        />
         <!-- footer header -->
         <div class="header__footer">
           <p class="header__hours">
             <span class="header__span">Horario:</span>
             <span class="header__span">Lunes a Viernes (de 10:00 a 19:00)</span>
-            <span class="header__span">Sábados y Domingos (de 11:00 a 18:00)</span>
+            <span class="header__span"
+              >Sábados y Domingos (de 11:00 a 18:00)</span
+            >
           </p>
           <p class="header__address">
             Avenida del Éxito 200, Ciudad Triple Peaks
@@ -79,7 +89,53 @@
         <!-- fin footer -->
       </header>
       <main class="content">
-        <section class="recipes"></section>
+        <!-- inicio recipes -->
+        <section class="recipes" id="recipes">
+          <h2 class="recipes__title">Recetas</h2>
+          <h3 class="recipes__subtitle">
+            Echa un vistazo a algunas de nuestras recetas para que elabores tu
+            propio café.
+          </h3>
+          <div class="recipes__videos">
+            <!-- video 1 -->
+            <div class="recipes__video-item">
+              <div class="recipes__iframe">
+                <iframe
+                  width="480"
+                  height="273"
+                  src="https://www.youtube.com/embed/j6VlT_jUVPc?si=L2Yx0zyK9GUTYKAD"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                  style="border: none"
+                >
+                </iframe>
+              </div>
+              <div class="recipes__video-caption">
+                Receta en Aeropress ~5 min
+              </div>
+            </div>
+            <!-- video 2 -->
+            <div class="recipes__video-item">
+              <div class="recipes__iframe">
+                <iframe
+                  width="480"
+                  height="273"
+                  src="https://www.youtube.com/embed/st571DYYTR8?si=dVMHDeQl3kzKCzpV"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                  style="border: none"
+                >
+                </iframe>
+              </div>
+              <div class="recipes__video-caption">
+                Receta en cafetera francesa ~15 min
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- fin recipes -->
         <section class="reservation"></section>
         <section class="menu"></section>
         <section class="about"></section>
