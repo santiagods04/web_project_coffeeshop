@@ -53,4 +53,6 @@
 }
 
 .card__list-divider {
+  flex-grow: 4;
+  border-bottom: 1px solid #000;
 }
