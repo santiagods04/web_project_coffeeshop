@@ -192,6 +192,11 @@ No les encontre uso
   margin: 0;
   display: flex;
   justify-content: center;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }
 
 .reservation__form {
@@ -208,6 +213,17 @@ No les encontre uso
 .form__label {
   display: block;
   margin-bottom: 8px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__label_type_checked {
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
 }
 
 .form__input {
@@ -215,10 +231,32 @@ No les encontre uso
   margin-bottom: 32px;
   width: 385px;
   height: 60px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+}
+
+.form__input::placeholder {
+  padding: 15px 20px;
 }
 
 .form__button {
+  width: 385px;
+  max-width: 385px;
+  height: 60px;
   border-radius: 4px;
+  margin-bottom: 32px;
+  border: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+  background-color: #2f80ed;
 }
 
 .form__button:hover {
@@ -226,5 +264,6 @@ No les encontre uso
 }
 
 .form__checkbox {
+  margin: 0 auto;
   border-radius: 2px;
 }
