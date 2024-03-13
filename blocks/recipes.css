@@ -1,0 +1,60 @@
+/* inicio css main section recipes */
+.recipes {
+  background-color: #0a2750;
+  background-image: url("../images/background_recipes.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.recipes__title {
+  max-width: 580px;
+  margin-top: 0;
+  padding-top: 100px;
+  padding-left: 80px;
+  margin-bottom: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.recipes__subtitle {
+  max-width: 438px;
+  margin-top: 24px;
+  padding-left: 80px;
+  margin-bottom: 0;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.recipes__videos {
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+  padding-top: 80px;
+  padding-bottom: 215px;
+  justify-content: center;
+}
+
+/* .recipes__video-item {
+}
+
+No les encontre uso
+
+.recipes__iframe {
+} */
+
+.recipes__video-caption {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+/* fin css recipes */
