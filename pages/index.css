@@ -205,12 +205,12 @@ No les encontre uso
   display: flex;
 }
 
-.form__fieldset {
+.reservation__fieldset {
   padding: 0;
   border: none;
 }
 
-.form__label {
+.reservation__label {
   display: block;
   margin-bottom: 8px;
   font-family: "Inter", Arial, sans-serif;
@@ -220,14 +220,14 @@ No les encontre uso
   line-height: 20px;
 }
 
-.form__label_type_checked {
+.reservation__label_type_checked {
   margin: 0 auto;
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
 }
 
-.form__input {
+.reservation__input {
   border-radius: 4px;
   margin-bottom: 32px;
   width: 385px;
@@ -240,11 +240,11 @@ No les encontre uso
   color: #838383;
 }
 
-.form__input::placeholder {
+.reservation__input::placeholder {
   padding: 15px 20px;
 }
 
-.form__button {
+.reservation__button {
   width: 385px;
   max-width: 385px;
   height: 60px;
@@ -260,11 +260,11 @@ No les encontre uso
   background-color: #2f80ed;
 }
 
-.form__button:hover {
+.reservation__button:hover {
   opacity: 0.7;
 }
 
-.form__checkbox {
+.reservation__checkbox {
   margin-left: 0;
   border-radius: 2px;
   margin-right: 12px;
