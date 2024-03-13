@@ -223,7 +223,7 @@ No les encontre uso
 .form__label_type_checked {
   margin: 0 auto;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .form__input {
